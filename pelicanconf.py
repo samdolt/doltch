@@ -78,6 +78,9 @@ NEST_TAGS_HEADER_TITLE = u'Tags'
 NEST_TAGS_HEADER_SUBTITLE = u'Tags List'
 NEST_TAGS_CONTENT_TITLE = u'Tags List'
 NEST_TAGS_CONTENT_LIST = u'tagged'
+
+NEST_JS_ENABLE = True
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Zurich'
@@ -98,8 +101,12 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 )
 
 # Social widget
-SOCIAL = (('Github', 'http://github.com/samdolt/'),
+SOCIAL = (
+    ('github', 'http://github.com/samdolt/'),
+    ('rss', 'http://www.dolt.ch/blog/feeds/all.atom.xml'),
 )
+
+NEST_SOCIAL_ICON = True
 
 DEFAULT_PAGINATION = 15
 
