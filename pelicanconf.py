@@ -112,3 +112,7 @@ DEFAULT_PAGINATION = 15
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+from sphinxcontrib.embedly import setup_docutils
+setup_docutils()
+

@@ -24,3 +24,10 @@ Bienvenue sur mon nouveau blog.
         return __doc__
 
 
+.. note::
+
+   Une note
+
+.. embedly:: https://www.youtube.com/watch?v=KNXB4zgupG4
+
+
