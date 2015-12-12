@@ -116,3 +116,4 @@ DEFAULT_PAGINATION = 15
 from sphinxcontrib.embedly import setup_docutils
 setup_docutils()
 
+MD_EXTENSIONS = [ "admonition", "extra",]
